@@ -25,7 +25,7 @@ class GeometriaTest {
 	@Test
 	// metodo area del circulo
 	public void testAreaCirculo() {
-		double resultado = geometria.areaCirculo(2);
+		double resultado = geometria.areaCirculo(3);
 		assertEquals(3.1416 * 9, resultado);
 	}
 
